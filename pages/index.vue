@@ -4,41 +4,8 @@
      <h1>Get the tech news</h1>   
    </section>
    
-   <section class="featured-posts ">
-    <PostPreview 
-      id="1"
-      title="Name 1"
-      previewText="previewText previewText"
-      thumbnail="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg"
-    />
-   
-     <PostPreview 
-      id="2"
-      title="Name 2"
-      previewText="previewText previewText"
-      thumbnail="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg"
-    />
-
-     <PostPreview 
-      id="2"
-      title="Name 2"
-      previewText="previewText previewText"
-      thumbnail="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg"
-    />
-
-   </section>
   </section>
 </template>
-
-<script>
-import PostPreview from '@/components/Posts/PostPreview'
-
-export default {
-  components: {
-    PostPreview
-  }
-}
-</script>
 
 <style scoped>
 .intro {
