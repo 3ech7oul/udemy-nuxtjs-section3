@@ -1,15 +1,6 @@
 <template>
-  <div class="post-page">
-    <section class="featured-posts ">
-
-
-     <PostList 
-      id="2"
-      title="Name 2"
-      previewText="previewText previewText"
-      thumbnail="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg"
-    />
-   </section>
+  <div class="posts-page">
+    <PostList />
   </div>
 </template>
 
@@ -23,11 +14,11 @@ export default {
 }
 </script>
 
+
 <style scoped>
-.post-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+.posts-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

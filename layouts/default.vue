@@ -1,13 +1,10 @@
 <template>
   <div>
-    <TheHeader
-      @sidenavToggle="displaySidenav = !displaySidenav"
-     />
-    <TheSidenav 
+    <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
+    <TheSidenav
       :show="displaySidenav"
-      @close="displaySidenav = false"
-    />
-    <Nuxt />
+      @close="displaySidenav = false" />
+    <nuxt/>
   </div>
 </template>
 
@@ -16,24 +13,25 @@ import TheHeader from '@/components/Navigation/TheHeader'
 import TheSidenav from '@/components/Navigation/TheSidenav'
 
 export default {
-   components: {
-     TheHeader,
-     TheSidenav
-   },
-   data() {
-     return{
-       displaySidenav: false
-     }
-   }
+  components: {
+    TheHeader,
+    TheSidenav
+  },
+  data() {
+    return {
+      displaySidenav: false
+    }
+  }
 }
 </script>
+
 
 <style>
 html {
   font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
   margin: 0;
 }
 </style>
